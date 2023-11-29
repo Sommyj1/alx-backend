@@ -60,6 +60,7 @@ app.get('/reserve_seat', (req, res) => {
   });
 });
 
+
 app.get('/process', (req, res) => {
   res.json({ status: 'Queuing processing' });
   queue.process('reserve_seat', (job, done) => {
