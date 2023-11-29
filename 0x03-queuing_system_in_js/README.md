@@ -47,7 +47,6 @@ const message = queue.dequeue();
 
 console.log(message); // Hello world!
 ```
-
 ### Documentation
 
 For more information, please see the [Redis Queue documentation](https://github.com/nkl/redis-queue#readme).
